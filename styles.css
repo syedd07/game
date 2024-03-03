@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #e5dcd3;
+}
+
+.header {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 4em;
+    font-weight: 200;
+    color: #362009;
+    padding: 20px 0 30px 0;
+}
+
+.tic, .tac, .toe {
+    display: inline-block;
+}
+
+.tic, .toe {
+    transform:rotate(-10deg);       
+}
+
+.tac {
+    transform:rotate(5deg);
+}
+
+.center {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.game-board-container {
+    background: #362009;
+    height: 350px;
+    width: 350px;
+}
+
+.square {
+    height: 114px;
+    width: 114px;
+    background: #e5dcd3;
+    color: #362009;
+    font-family: sans-serif;
+    font-size: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#one {
+    position: relative;
+}
+
+#two {
+    position: relative;
+    top: -114px;
+    left: 118px;
+}
+
+#three {
+    position: relative;
+    top: -228px;
+    left: 236px;
+}
+
+#four {
+    position: relative;
+    top: -224px;
+}
+
+#five {
+    position: relative;
+    top: -338px;
+    left: 118px;
+}
+
+#six {
+    position: relative;
+    top: -452px;
+    left: 236px;
+}
+
+#seven {
+    position: relative;
+    top: -448px;
+}
+
+#eight {
+    position: relative;
+    top: -562px;
+    left: 118px;
+}
+
+#nine {
+    position: relative;
+    top: -676px;
+    left:236px;
+}
+
+.btn-container {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 140px;
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #e5dcd3;
+    background: #362009;
+    border: none;
+    cursor: pointer;
+    .selector {
+        border-radius: 2px;
+    }
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    background: #1d0700;
+}
+
+#reset-btn {
+    margin-top: 4px;
+    width: 284px;
+}
+}
